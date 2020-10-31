@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--BOOTSTRAP-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!--JAVASCRIPT-->
+    <script src = "script.js"></script>
+    <!--HANDLEBARS LIBRARY-->
+    <script src = "https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <title>QUIZ</title>
+</head>
+<body>
+
+  <div id = "app_widget" class = "widget_app"> 
+  </div>
+
+<!-- MAIN VIEW  -->
+<script id = "post_view1" type = "text/x-handlebars-template">
+<h1>Welcome to this quiz about java</h1>
+<div id = name>
+<form>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" placeholder="First Name">First Name: </span>
+      </div>
+      <input type="text" class="form-control">
+    </div>
+  </form>
+
+  <form>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" placeholder="Last Name">Last Name: </span>
+      </div>
+      <input type="text" class="form-control">
+    </div>
+    <div class="btn-group-vertical" id = "quiz_choice_buttons">
+        <button type="button" class="btn btn-primary" data-vote = "python">Python Quiz</button>
+        <button type="button" class="btn btn-dark" data-vote= "java">Java Quiz</button>
+    </div>
+
+  </form>
+</div>
+</script>
+
+
+<!-- QUIZ VIEW -->
+<script id = "quiz_view" type = "text/x-handlebars-template">
+    <div class="btn-group-vertical">
+      <!-- Multiple Choice-->
+      <div class = question>
+        <label id = "question">{{this.PyQuestions.0.question}}</label>
+      </div>
+      <div class = "choice-container">
+            <button type="button" class="btn btn-primary" class = "choice-text" data-number = 1>{{this.PyQuestions.0.question}}</button>
+      </div>
+      <div class = "choice-container">
+        <button type="button" class="btn btn-primary" class = "choice-text" data-number = 2>{{this.PyQuestions.0.question}}</button>
+      </div>
+      <div class = "choice-container">
+        <button type="button" class="btn btn-primary" class = "choice-text" data-number = 3>{{this.PyQuestions.0.question}}</button>
+      </div>
+      <div class = "choice-container">
+        <button type="button" class="btn btn-primary" class = "choice-text" data-number = 4>{{this.PyQuestions.0.question}}</button>
+      </div>
+            
+    </script>
+
+    <script id = "quiz_view2" type = "text/x-handlebars-template">
+      <div class="btn-group-vertical">
+        <!-- Multiple Choice-->
+        <div class = question>
+          <label id = "question">{{this.BBallQuestions.0.question}}</label>
+        </div>
+        <div class = "choice-container">
+              <button type="button" class="btn btn-primary" class = "choice-text" data-number = 1>{{this.BBallQuestions.0.choice1}}</button>
+        </div>
+        <div class = "choice-container">
+          <button type="button" class="btn btn-primary" class = "choice-text" data-number = 2>{{this.BBallQuestions.0.choice2}}</button>
+        </div>
+        <div class = "choice-container">
+          <button type="button" class="btn btn-primary" class = "choice-text" data-number = 3>{{this.BBallQuestions.0.choice3}}</button>
+        </div>
+        <div class = "choice-container">
+          <button type="button" class="btn btn-primary" class = "choice-text" data-number = 4>{{this.BBallQuestions.0.choice4}}</button>
+        </div>
+              
+      </script>
+
+
+
+<!-- FeedBack VIEW-->
+<script id = "feedback_view" type = "text/x-handlebars-template">
+
+</script>
+
+
+</body>
+
+</html>
+
+<!--
+<script id = "view2" type = "text/x-handlebars-template">
+    <h1>Questions 1</h1>
+    <p>When was Java created?</p>
+    <div class="btn-group-vertical">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-dark">Samsung</button>
+        <button type="button" class="btn btn-success">Sony</button>
+        <button type="button" class="btn btn-danger">Sony</button>
+      </div>
+</script>
+-->

@@ -1,0 +1,357 @@
+{
+    "BBallQuestions" :[
+        {
+        "type" : "multiple-choice",
+        "question" : "What team the finals in 2016",
+        "choice1" : "Warriors",
+        "choice2" : "Cleveland",
+        "choice3" : "Bulls",
+        "choice4" : "Wizards",
+        "answer": 2
+         
+        },
+        {
+         "type" : "multiple-choice",
+        "question" : "What team did Michael Jordan play for?",
+        "choice1" : "Bulls",
+        "choice2" : "Kings",
+        "choice3" : "Lakers",
+        "choice4" : "Celtics",
+        "answer": 1
+        }, 
+        {
+            "type" : "multiple-choice",
+           "question" : "Who does LeBron currently play for?",
+           "choice1" : "Lakers",
+           "choice2" : "Clippers",
+           "choice3" : "Bucks",
+           "choice4" : "Rockets",
+           "answer": 1
+        }, 
+        {
+        "type" : "multiple-choice",
+        "question" : "James harden won the MVP in the year?",
+        "choice1" : "2018",
+        "choice2" : "2019",
+        "choice3" : "2020",
+        "choice4" : "2021",
+        "answer": 1
+        }, 
+        
+        {
+        "type" : "multiple-choice",
+        "question" : "LeBron wom his first ring with which team",
+        "choice1" : "Heat",
+        "choice2" : "Cavs",
+        "choice3" : "Lakers",
+        "choice4" : "Rat",
+        "answer": 1 
+        }, 
+
+        {
+        "type" : "fill-in-blank",
+        "question" : "Allen ____ played for the 76ers",
+        "choice1" : "Iverson",
+        "choice2" : "Rodman",
+        "choice3" : "Jordan",
+        "choice4" : "Irving",
+        "answer": 1 
+        
+    },
+    {
+        "type" : "fill-in-blank",
+        "question" : "Kyrie ______ nickname is Uncle Drew",
+        "choice1" : "James",
+        "choice2" : "Irving",
+        "choice3" : "Cool",
+        "choice4" : "Poop", 
+        "answer": 2
+        
+    },
+
+    {
+        "type" : "fill-in-blank",
+        "question" : "_____ is located in Los Angeles",
+        "choice1" : "Clippers",
+        "choice2" : "Wizards",
+        "choice3" : "Pacers",
+        "choice4" : "Basketball Team",
+        "answer": 1
+        
+    },
+    {
+        "type" : "fill-in-blank",
+        "question" : "______ is located in Chicago",
+        "choice1" : "Wizards",
+        "choice2" : "Lakers",
+        "choice3" : "Bulls",
+        "choice4" : "Clippers",
+        "answer": 3
+            
+    },
+    {
+        "type" : "fill-in-blank",
+        "question" : "____ won back to back MVPs",
+        "choice1" : "John Stockton",
+        "choice2" : "Allen Iverson",
+        "choice3" : "Lance Stephenson",
+        "choice4" : "Stephen Curry",
+        "answer": 4
+    },
+    {
+        "type": "true-false",
+        "question": "Kobe Bryant is a legend",
+        "choice1": "true",
+        "choice2": "false",
+        "answer": 1
+
+    },
+    {
+        "type": "true-false",
+        "question": "Dribbling after you pcik up the ball is a travel",
+        "choice1": "true",
+        "choice2": "false",
+        "answer": 2
+    },
+    {
+        "type": "true-false",
+        "question": "Dwight Howard won a ring with Kobe Bryant",
+        "choice1": "true",
+        "choice2": "false",
+        "answer": 2
+    },
+    {
+        "type": "true-false",
+        "question": "Kyrie Irving and LeBron James came back down 3-1 to the Warriors",
+        "choice1": "true",
+        "choice2": "false",
+        "answer": 1
+    },
+    {
+        "type": "true-false",
+        "question": "Kevin Durant has 6 final MVPs",
+        "choice1": "true",
+        "choice2": "false",
+        "answer": 2
+    },
+    {
+        "type": "short-answer",
+        "question": "Kevin Durant has how many rings ____",
+        "choice1": "2",
+        "choice2": "3",
+        "choice3": "1",
+        "answer": 1
+    },
+    {
+        "type": "short-answer",
+        "question": "Kevin Durant has how many final mvps?",
+        "choice1": "2",
+        "choice2": "3",
+        "choice3": "1",
+        "answer": 1
+    },
+    {
+        "type": "short-answer",
+        "question": "LeBron James has how many rings?",
+        "choice1": "1",
+        "choice2": "3",
+        "choice3": "4",
+        "answer": 3
+    },
+    {
+        "type": "short-answer",
+        "question": "Michael Jordan has how many rings?",
+        "choice1": "5",
+        "choice2": "6",
+        "choice3": "8",
+        "answer": 2
+    },
+    {
+        "type": "short-answer",
+        "question": "Bill Russell has how many rings",
+        "choice1": "11",
+        "choice2": "1",
+        "choice3": "8",
+        "answer": 1
+    }
+],
+
+    "PyQuestions" :[
+        {
+        "type" : "multiple-choice",
+        "question" : "What do you use to create a function in Python?",
+        "choice1" : "func",
+        "choice2" : "function",
+        "choice3" : "def",
+        "choice4" : "void",
+        "answer": 3
+         
+        },
+        {
+         "type" : "multiple-choice",
+        "question" : "What is the term for creating a list in python?",
+        "choice1" : "list",
+        "choice2" : "array",
+        "choice3" : "def",
+        "choice4" : "function",
+        "answer": 2
+        }, 
+        {
+            "type" : "multiple-choice",
+           "question" : "Who created python?",
+           "choice1" : "Guido Van Rossum",
+           "choice2" : "LeBron James",
+           "choice3" : "Bill Gates",
+           "choice4" : "Steve Harvey",
+           "answer": 1
+        }, 
+        {
+        "type" : "multiple-choice",
+        "question" : "How do you print something in Python?",
+        "choice1" : "print('Hello World')",
+        "choice2" : "p('Hello World')",
+        "choice3" : "def('Hello World')",
+        "choice4" : "func('Hello World')",
+        "answer": 1
+        }, 
+        {
+        "type" : "multiple-choice",
+        "question" : "Python is named after a...",
+        "choice1" : "British Comedy Group",
+        "choice2" : "Movie",
+        "choice3" : "Snake",
+        "choice4" : "Rat",
+        "answer": 1 
+        },
+
+        {
+        "type" : "fill-in-blank",
+        "question" : "A _____ is used to store values in python",
+        "choice1" : "print('Hello World')",
+        "choice2" : "def",
+        "choice3" : "value",
+        "choice4" : "array",
+        "answer": 3 
+        
+    },
+    {
+        "type" : "fill-in-blank",
+        "question" : "A ______ is used to store blocks of code",
+        "choice1" : "print('Hello World')",
+        "choice2" : "function",
+        "choice3" : "lunch box",
+        "choice4" : "def", 
+        "answer": 2
+        
+    },
+
+    {
+        "type" : "fill-in-blank",
+        "question" : "_____ is a programming language",
+        "choice1" : "python",
+        "choice2" : "cobra",
+        "choice3" : "spider-man",
+        "choice4" : "Michael Jordan",
+        "answer": 1
+        
+    },
+    {
+        "type" : "fill-in-blank",
+        "question" : "A ______ hold true or false value",
+        "choice1" : "int",
+        "choice2" : "string",
+        "choice3" : "boolean",
+        "choice4" : "double",
+        "answer": 3
+            
+    },
+    {
+        "type" : "fill-in-blank",
+        "question" : "A ______ is what is used to comment out code",
+        "choice1" : "//",
+        "choice2" : "<!-- -->",
+        "choice3" : "$",
+        "choice4" : "#",
+        "answer": 4
+    },
+
+    {
+        "type": "true-false",
+        "question": "Python is a general purpose language",
+        "choice1": "true",
+        "choice2": "false",
+        "answer": 1
+
+    },
+    {
+        "type": "true-false",
+        "question": "Python is a strongly type language",
+        "choice1": "true",
+        "choice2": "false",
+        "answer": 2
+    },
+    {
+        "type": "true-false",
+        "question": "Python is a strongly type language",
+        "choice1": "true",
+        "choice2": "false",
+        "answer": 2
+    },
+    {
+        "type": "true-false",
+        "question": "Python is a great language",
+        "choice1": "true",
+        "choice2": "false",
+        "answer": 1
+    },
+    {
+        "type": "true-false",
+        "question": "0 is the first number in the index",
+        "choice1": "true",
+        "choice2": "false",
+        "answer": 2
+    },
+    
+    {
+        "type": "short-answer",
+        "question": "Python files end with ____",
+        "choice1": "py",
+        "choice2": "java",
+        "choice3": "json",
+        "answer": 1
+    },
+    {
+        "type": "short-answer",
+        "question": "a ____ loop, loops through an array",
+        "choice1": "for",
+        "choice2": "if",
+        "choice3": "json",
+        "answer": 1
+    },
+    {
+        "type": "short-answer",
+        "question": "Central Processing Unit abbreviated is (_____)",
+        "choice1": "JAV",
+        "choice2": "WIFI",
+        "choice3": "CPU",
+        "answer": 3
+    },
+    {
+        "type": "short-answer",
+        "question": "Big ____ Notation",
+        "choice1": "S",
+        "choice2": "O",
+        "choice3": "J",
+        "answer": 2
+    },
+    {
+        "type": "short-answer",
+        "question": "You use a ____ drive to store extra data",
+        "choice1": "USB",
+        "choice2": "JSON",
+        "choice3": "PY",
+        "answer": 1
+    }
+]
+}
+
